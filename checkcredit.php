@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con=mysqli_connect('remotemysql.com','3RPLsjVSDB','X2opJ6FljH','3RPLsjVSDB');
+$con=mysqli_connect('sql6.freemysqlhosting.net','sql6444958','DEJFyJCHIT','sql6444958');
 //mysqli_select_db($con,'id8930489_spark');
 $name1=$_SESSION['name'];
 $q="select credit from user where name='$name1'";
