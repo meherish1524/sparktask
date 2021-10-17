@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect('remotemysql.com','3RPLsjVSDB','X2opJ6FljH','3RPLsjVSDB');
+$con=mysqli_connect('sql6.freemysqlhosting.net','sql6444958','DEJFyJCHIT','sql6444958');
 //mysqli_select_db($con,'id8930489_spark');
 $q="select name from user";
 $result=mysqli_query($con,$q);
@@ -23,7 +23,7 @@ $result=mysqli_query($con,$q);
 
     <?php 
 session_start();
-$con=mysqli_connect('remotemysql.com','3RPLsjVSDB','X2opJ6FljH','3RPLsjVSDB');
+$con=mysqli_connect('sql6.freemysqlhosting.net','sql6444958','DEJFyJCHIT','sql6444958');
 $q="select * from user ";
 $result=mysqli_query($con,$q);
 $row_count=mysqli_num_rows($result);
@@ -165,7 +165,7 @@ $row_count=mysqli_num_rows($result);
 <td>
 
 <?php
-$con=mysqli_connect('remotemysql.com','3RPLsjVSDB','X2opJ6FljH','3RPLsjVSDB');
+$con=mysqli_connect('sql6.freemysqlhosting.net','sql6444958','DEJFyJCHIT','sql6444958');
 //mysqli_select_db($con,'id8930489_spark');
 $q="select name from user";
 $result=mysqli_query($con,$q);
