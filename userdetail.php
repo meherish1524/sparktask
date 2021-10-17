@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$con=mysqli_connect('remotemysql.com','3RPLsjVSDB','X2opJ6FljH','3RPLsjVSDB');
+$con=mysqli_connect('sql6.freemysqlhosting.net','sql6444958','DEJFyJCHIT','sql6444958');
 $name=$_POST['name'];
 $q="select * from user where name='$name'";
 $result=mysqli_query($con,$q);
